@@ -1,0 +1,24 @@
+Created two clickable scripts in the project root:
+
+```text
+Run_AllBazar.bat
+Stop_AllBazar.bat
+```
+
+Use:
+
+1. Double-click `Run_AllBazar.bat`
+2. It will:
+   - check/start XAMPP MySQL
+   - create the `allbazar` database if missing
+   - run Laravel migrations
+   - open the browser
+   - start the site at `http://127.0.0.1:8000`
+
+To stop the Laravel server, double-click:
+
+```text
+Stop_AllBazar.bat
+```
+
+I also updated `README.md` with the one-click launcher instructions.

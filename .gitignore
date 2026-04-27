@@ -1,0 +1,16 @@
+/.env
+/vendor/
+/node_modules/
+/composer.phar
+
+/bootstrap/cache/*.php
+/storage/app/public/
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/testing/
+/storage/framework/views/
+/storage/logs/
+
+*.log
+Thumbs.db
+.DS_Store
